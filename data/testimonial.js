@@ -1,27 +1,23 @@
-
 export const testimonial = [
   {
-    quote:
-      "The AI-powered interview prep was a game-changer. Landed my dream job at a top tech company!",
     author: "Sarah Chen",
-    image: "https://randomuser.me/api/portraits/women/75.jpg",
     role: "Software Engineer",
     company: "Tech Giant Co.",
+    image: "/assets/sarah.png",   // ✅ Correct path for Next.js + Netlify
+    quote: "The AI-powered interview prep was a game-changer for my career.",
   },
   {
-    quote:
-      "The industry insights helped me pivot my career successfully. The salary data was spot-on!",
     author: "Michael Rodriguez",
-    image: "https://randomuser.me/api/portraits/men/75.jpg",
     role: "Product Manager",
-    company: "StartUp Inc.",
+    company: "InnovateX",
+    image: "/assets/michael.png",  // ✅ Correct path
+    quote: "Landing my dream job felt easy with this amazing platform!",
   },
   {
-    quote:
-      "My resume's ATS score improved significantly. Got more interviews in two weeks than in six months!",
     author: "Priya Patel",
-    image: "https://randomuser.me/api/portraits/women/74.jpg",
-    role: "Marketing Director",
-    company: "Global Corp",
+    role: "Data Scientist",
+    company: "AI Labs",
+    image: "/assets/priya.png",    // ✅ Correct path
+    quote: "The mock interviews helped me boost my confidence like never before.",
   },
 ];
